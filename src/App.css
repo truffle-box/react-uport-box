@@ -36,3 +36,12 @@ h1, h2, h3 {
   font-weight: bold;
   text-transform: none;
 }
+
+.navbar .navbar-right {
+  float: right;
+}
+
+.navbar .uport-logo {
+  height: 16px;
+  margin-right: 10px;
+}
