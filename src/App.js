@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router'
 
 // UI Components
 import LoginButtonContainer from './login/LoginButtonContainer'
@@ -17,7 +18,7 @@ class App extends Component {
     return (
       <div className="App">
         <nav className="navbar pure-menu pure-menu-horizontal">
-            <a href="#" className="pure-menu-heading pure-menu-link">Truffle Box</a>
+            <Link to="/" className="pure-menu-heading pure-menu-link">Truffle Box</Link>
             <ul className="pure-menu-list navbar-right">
                 <LoginButtonContainer />
             </ul>
