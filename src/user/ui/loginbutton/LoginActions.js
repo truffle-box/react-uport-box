@@ -1,4 +1,4 @@
-import { uport, web3 } from './../util/connectors.js'
+import { uport, web3 } from './../../../util/connectors.js'
 import { browserHistory } from 'react-router'
 
 export const USER_LOGGED_IN = 'USER_LOGGED_IN'
@@ -11,7 +11,7 @@ function userLoggedIn(user) {
 
 export function loginUser() {
   return function(dispatch) {
-    // UPort and its web3 instance are defined in ./../util/wrappers.
+    // UPort and its web3 instance are defined in ./../../../util/wrappers.
     web3.eth.getCoinbase(function (err, address) {
       if (err) { throw err }
 
