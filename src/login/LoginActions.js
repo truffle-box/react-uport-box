@@ -11,10 +11,14 @@ function userLoggedIn(user) {
 
 export function loginUser() {
   return function(dispatch) {
+    // UPort and its web3 instance are defined in ./../util/wrappers.
     web3.eth.getCoinbase(function (err, address) {
       if (err) { throw err }
+
+      // Get current wallet address
       web3.eth.defaultAccount = address
 
+      // Get UPort persona of above address
       uport.getUserPersona().then((userPersona) => {
         dispatch(userLoggedIn(userPersona.profile))
 
