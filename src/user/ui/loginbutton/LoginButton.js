@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
 
 // Images
 import uPortLogo from '../../../img/uport-logo.svg'

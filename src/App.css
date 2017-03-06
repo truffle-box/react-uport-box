@@ -9,7 +9,7 @@ h1, h2, h3 {
   font-family: 'Oswald', 'Arial Narrow', sans-serif;
 }
 
-code {
+pre {
   display: block;
   margin: 20px 0 15px 0;
   padding: 10px;

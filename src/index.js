@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import { Provider } from 'react-redux'
 import { syncHistoryWithStore } from 'react-router-redux'
-import { UserIsAuthenticated, UserIsNotAuthenticated } from './util/wrappers.js'
+import { UserIsAuthenticated } from './util/wrappers.js'
 
 // Layouts
 import App from './App';
@@ -13,9 +13,6 @@ import Profile from './user/layouts/profile/Profile';
 
 // Redux Store
 import store from './store';
-
-// Config
-import truffleConfig from './../truffle-config.js'
 
 const history = syncHistoryWithStore(browserHistory, store)
 
