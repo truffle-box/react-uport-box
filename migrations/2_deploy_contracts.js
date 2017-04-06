@@ -1,5 +1,9 @@
-var SimpleStorage = artifacts.require("./SimpleStorage.sol");
+var SimpleStorage = require("../contracts/SimpleStorage.sol");
+var artifactor = require("truffle-artifactor");
 
 module.exports = function(deployer) {
-  deployer.deploy(SimpleStorage);
+  artifactor.save({}, SimpleStorage).then(()=> {
+    console.log('made it SimpleStorage')
+    deployer.deploy(SimpleStorage);
+  })
 };
