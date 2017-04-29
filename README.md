@@ -4,7 +4,7 @@ All truffle boxes come with Truffle, Webpack and React. This box adds react-rout
 
 ## Installation
 
-1. Install truffle and an ethereum client. For local development, try EthereumJS TestRPC.
+1. Install geth, truffle and an ethereum client. For local development, try EthereumJS TestRPC.  Geth might take a while, but instructions can be found here: https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Mac -- then after that install truffle:
     ```javascript
     npm install -g truffle // Version 3.0.5+ required.
     npm install -g ethereumjs-testrpc
