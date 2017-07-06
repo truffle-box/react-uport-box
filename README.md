@@ -12,7 +12,7 @@ All truffle boxes come with Truffle, Webpack and React. This box adds react-rout
 
 2. Download box.
     ```javascript
-    truffle unbox truffle-box-uport
+    truffle unbox react-uport
     ```
 
 3. Compile and migrate the contracts.
