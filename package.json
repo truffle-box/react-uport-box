@@ -1,5 +1,5 @@
 {
-  "name": "truffle-box-uport",
+  "name": "react-uport-box",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -82,7 +82,7 @@
       "^(?!.*/.(js|jsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
     },
     "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+      "[/\\\\]node_modules[/\\\\].+/.(js|jsx)$"
     ],
     "moduleNameMapper": {
       "^react-native$": "react-native-web"
