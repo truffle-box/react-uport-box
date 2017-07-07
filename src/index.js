@@ -6,13 +6,13 @@ import { syncHistoryWithStore } from 'react-router-redux'
 import { UserIsAuthenticated } from './util/wrappers.js'
 
 // Layouts
-import App from './App';
-import Home from './layouts/home/Home';
-import Dashboard from './layouts/dashboard/Dashboard';
-import Profile from './user/layouts/profile/Profile';
+import App from './App'
+import Home from './layouts/home/Home'
+import Dashboard from './layouts/dashboard/Dashboard'
+import Profile from './user/layouts/profile/Profile'
 
 // Redux Store
-import store from './store';
+import store from './store'
 
 const history = syncHistoryWithStore(browserHistory, store)
 
@@ -28,4 +28,4 @@ ReactDOM.render((
     </Provider>
   ),
   document.getElementById('root')
-);
+)
