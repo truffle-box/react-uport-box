@@ -9,7 +9,7 @@ class Home extends Component {
             <h1>Good to Go!</h1>
             <p>Your Truffle Box is installed and ready.</p>
             <h2>UPort Authentication</h2>
-            <p>This particular box comes with UPort autentication built-in.</p>
+            <p>This particular box comes with UPort authentication built-in.</p>
             <p>NOTE: To interact with your smart contracts through UPort's web3 instance, make sure they're deployed to the Ropsten testnet.</p>
             <p>In the upper-right corner, you'll see a login button. Click it to login with UPort. There is an authenticated route, "/dashboard", that displays the UPort user's name once authenticated.</p>
             <h3>Redirect Path</h3>
