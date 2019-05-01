@@ -1,3 +1,5 @@
+⚠️ **No new changes will be made to this box! There's good news though: [🤘 the uPort team maintains and official uPort Connect Truffle Box!](https://github.com/uport-project/react-uport-box). We recommend using that instead.**
+
 # React, Redux and UPort Authentication Truffle Box
 
 In addition to Webpack and React, this box adds: react-router, redux and redux-auth-wrapper for authentication powered by UPort. The easiest way to get started with UPort.
