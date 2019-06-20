@@ -1,4 +1,4 @@
-⚠️ **No new changes will be made to this box! There's good news though: [🤘 the uPort team maintains and official uPort Connect Truffle Box!](https://github.com/uport-project/react-uport-box). We recommend using that instead.**
+⚠️ **No new changes will be made to this box! There's good news though: [🤘 the uPort team maintains an official uPort Connect Truffle Box!](https://github.com/uport-project/react-uport-box). We recommend using that instead.**
 
 # React, Redux and UPort Authentication Truffle Box
 
